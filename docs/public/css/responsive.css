@@ -1,0 +1,326 @@
+@media (min-width:1200px)
+{
+    /*body > section { min-height: 564px;}*/
+}
+
+@media (max-width:1199px)
+{
+    header nav a { width:174px; }
+
+    #slider { border-right:solid 15px rgba(0, 0, 0, 0); }
+
+    #services div.row > div > a { height:248px; }
+
+    #contact .info { width:300px; }
+
+    #contact input { width:193px; margin-right:12px; }
+
+    #contact textarea { width:610px; }
+
+    #contact button { left:300px; }
+
+    section#logopedie div.wrapper { height: 420px; }
+}
+
+@media (max-width:991px)
+{
+    header nav a { width:130px; font-size:12px; }
+
+    #slider div.slide_text { padding:100px 80px 100px 30px; }
+
+    #services div.row > div > a { height:199px; }
+
+    #services div.row div h2 { font-size:18px; }
+
+    #contact .info { width:300px; }
+
+    #contact input, #contact textarea { width:388px; margin:0 10px 10px; }
+
+    #contact button { left:310px; }
+
+}
+
+@media (max-width:767px) {
+    body > section {
+        padding-top: 60px;
+    }
+
+    #slider {
+        margin-top: 15px;
+    }
+
+    #services div.row > div > a {
+        height: auto;
+    }
+
+    #contact * {
+        text-align: center;
+    }
+
+    #contact .info {
+        float: none;
+    }
+
+    #contact .info, #contact .form {
+        position: relative;
+        top: 20px;
+        width: 80%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    #contact input, #contact textarea {
+        width: 95%;
+        text-align: left;
+    }
+
+    #contact button {
+        left: auto;
+        margin: auto;
+    }
+
+    section#logopedie div.wrapper {
+        height: auto;
+    }
+
+    /***************************
+           Mobile Header
+    ***************************/
+    header {
+        position: fixed;
+        width: 100%;
+        height: 60px;
+        background-color: #2A3037;
+        z-index: 5;
+    }
+
+    .fa-phone {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        top: 0;
+        right: 60px;
+        background-color: #2A3037;
+        font-size: 28px;
+        line-height: 60px;
+        text-align: center;
+        text-decoration: none;
+        border-left: 1px solid #ddd;
+        color: #fff;
+    }
+
+    .fa-phone:hover {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    #header-logo {
+        margin: 7px;
+    }
+
+    #header-logo img {
+        width: 190px;
+    }
+
+    /***************************
+         Mobile Navigation
+    ***************************/
+    nav#mobile {
+        display: block;
+        position: fixed;
+        width: 100%;
+    }
+
+    nav#mobile.open {
+        height: 100%;
+    }
+
+    nav#mobile > ul {
+        position: fixed;
+        display: block;
+        list-style: none;
+        padding: 0;
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        max-width: 250px;
+        background: #fafafa;
+        overflow: auto;
+
+        background-image: -moz-linear-gradient(top, #fff, #ddd);
+        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#ddd));
+        background-image: -webkit-linear-gradient(top, #fff, #ddd);
+        background-image: -o-linear-gradient(top, #fff, #ddd);
+        background-image: linear-gradient(to bottom, #fff, #ddd);
+        -webkit-transform: translateX(250px);
+        transform: translateX(250px);
+
+        transition: transform 500ms ease-out;
+        -webkit-transition: -webkit-transform 500ms ease-out;
+    }
+
+    nav#mobile.open > ul {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+
+        transition: transform 400ms ease-out;
+        -webkit-transition: -webkit-transform 400ms ease-out;
+
+        box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.4);
+    }
+
+    nav#mobile div {
+        position: absolute;
+        width: 100%;
+        height: 1000%;
+        background-color: rgba(0, 0, 0, .4);
+    }
+
+    nav#mobile > ul > li > a, nav#mobile > ul > li.dropdown > i {
+        color: #2A3037;
+        display: block;
+        padding: 20px;
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ccc;
+        background-image: -moz-linear-gradient(top, #fff, #ddd);
+        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#ddd));
+        background-image: -webkit-linear-gradient(top, #fff, #ddd);
+        background-image: -o-linear-gradient(top, #fff, #ddd);
+        background-image: linear-gradient(to bottom, #fff, #ddd);
+    }
+
+    nav#mobile > ul > li.dropdown > a {
+        display: inline-block;
+        padding: 20px;
+        width: 188px;
+    }
+
+    nav#mobile a.nav-toggle {
+        position: fixed;
+        right: 0;
+        top: 0;
+        padding: 0;
+        width: 60px;
+        height: 60px;
+        background-color: #2A3037;
+        font-size: 28px;
+        line-height: 60px;
+        text-align: center;
+        text-decoration: none;
+
+        border-left: 1px solid #ddd;
+
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+
+        transition: transform 500ms ease-out;
+        -webkit-transition: -webkit-transform 500ms ease-out;
+    }
+
+    nav#mobile.open a.nav-toggle {
+        right: 8px;
+        top: 5px;
+        width: 50px;
+        height: 50px;
+        border: 1px solid #fff;
+        border-radius: 4px;
+        line-height: 45px;
+
+        -webkit-transform: translateX(-250px);
+        transform: translateX(-250px);
+
+        transition: transform 400ms ease-out;
+        -webkit-transition: -webkit-transform 400ms ease-out;
+
+    }
+
+    a.nav-toggle, a.nav-toggle:hover {
+        color: #fff;
+    }
+
+    /***************************
+         Mobile Subnav
+    ***************************/
+    nav#mobile ul ul {
+        max-height: 0;
+        overflow: hidden;
+
+        transition: max-height 500ms ease-out;
+        -webkit-transition: max-height 500ms ease-out;
+    }
+    nav#mobile ul ul.open {
+        max-height: 500px;
+
+        transition: max-height 500ms ease-out;
+        -webkit-transition: max-height 500ms ease-out;
+    }
+
+    nav#mobile ul ul li a {
+        display: block;
+        padding: 4px 15px;
+    }
+
+    nav#mobile > ul > li.dropdown > i {
+        position: absolute;
+        display: inline;
+        padding:23px;
+        border-left: 1px solid #ddd;
+        cursor: pointer;
+    }
+
+    /***************************
+              Footer
+    ***************************/
+    footer {
+        padding-bottom:10px;
+    }
+
+    footer img.logo {
+        display:block;
+        margin:15px auto;
+        padding:0;
+    }
+
+    footer div.registered {
+        display:block;
+        margin:0 auto;
+        width:324px;
+        float:none;
+    }
+
+    footer div.registered a {
+        display:inline-block;
+    }
+
+    footer span {
+        display:block;
+        float:none;
+        width:100%;
+        padding:1px;
+        text-align:center !important;
+    }
+
+
+    /***************************
+              Logopedie
+    ***************************/
+    #logopedie_detail #subnav { padding: 0; }
+
+    #logopedie_detail h2 { margin:0; padding: 15px 0 0 0; }
+
+    #over_ons > div.col-sm-6 {
+        padding: 0;
+    }
+
+
+}
+
+@media (max-width:350px)
+{
+    header nav a { width:130px; }
+
+    #slider div.slide_text { padding:50px 20px 50px 30px !important; width:290px !important; }
+
+    #slider div.slide_text h3 { font-size:22px; }
+}
