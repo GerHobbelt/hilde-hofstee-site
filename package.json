@@ -1,7 +1,7 @@
 {
-  "name": "bermuda-holding.com",
+  "name": "hilde-hofstee-nl-site",
   "version": "1.0.0-1",
-  "description": "website: bermuda-holding.com",
+  "description": "website: hildehofstee.nl",
   "main": "index.js",
   "directories": {
     "doc": "docs"
@@ -16,10 +16,10 @@
   "license": "GPL-3.0",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/GerHobbelt/site.bermuda-holding.com.git"
+    "url": "git+ssh://git@github.com/GerHobbelt/site.hilde-hofstee.git"
   },
   "bugs": {
-    "url": "https://github.com/GerHobbelt/site.bermuda-holding.com/issues"
+    "url": "https://github.com/GerHobbelt/site.hilde-hofstee/issues"
   },
-  "homepage": "https://github.com/GerHobbelt/site.bermuda-holding.com#readme"
+  "homepage": "https://github.com/GerHobbelt/site.hilde-hofstee#readme"
 }
