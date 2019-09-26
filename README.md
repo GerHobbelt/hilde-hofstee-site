@@ -1,4 +1,4 @@
-# site.hildehofstee.nl
+# site.hilde-hofstee
 
 This is the source code for the website: http://hildehofstee.nl/
 
